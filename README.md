@@ -9,24 +9,27 @@
 Автоматизировать часть проверок регресса с помощью Cypress
 
 ## Тест-кейсы, которые автоматизировали
-* Авторизация с верным паролем и верным логином
+* Авторизация с верным логином и верным паролем
 * Авторизация c верным логином и неверным паролем
+* Авторизация с неверным логином и верным паролем
 * Проверка работы валиадации на наличие @ в логине
 * Проверка флоу восстановления пароля
+* Проверка на приведение к строчным буквам в логине
+  
 
 ## Детали реализации
 
 1. baseUrl вынесен в переменные конфига
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/baseUrl.png)
+![baseUrl]([https://raw.githubusercontent.com/German-D/new_cypress/main/static/baseUrl.png](https://raw.githubusercontent.com/P-Sergei-qa/cypress_autotests/refs/heads/main/cypress/videos/baseUrl.png))
 
 2. Применение хуков beforeEach и afterEach
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/hooks.png)
+![beforeEach](https://raw.githubusercontent.com/P-Sergei-qa/cypress_autotests/refs/heads/main/cypress/videos/beforeEach.png)
 
 3. Переменные данные для авторизации вынесены в отдельный файл
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/user_data.png)
+![default]([https://raw.githubusercontent.com/German-D/new_cypress/main/static/user_data.png](https://raw.githubusercontent.com/P-Sergei-qa/cypress_autotests/refs/heads/main/cypress/videos/default.png))
 
 4. Каждая страница описана в формате объекта с локаторами
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/locators.png)
+![main_page](https://raw.githubusercontent.com/P-Sergei-qa/cypress_autotests/refs/heads/main/cypress/videos/main_page.png)
 
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
@@ -54,4 +57,4 @@ npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 
 ## Автор
 
-Герман Дольников ([@dolnikov](https://t.me/dolnikov))
+Пеньшин Сергей ([@Penshin_Sergei](https://t.me/Penshin_Sergei))
