@@ -26,7 +26,7 @@
 ![beforeEach](https://raw.githubusercontent.com/P-Sergei-qa/cypress_autotests/refs/heads/main/cypress/videos/beforeEach.png)
 
 3. Переменные данные для авторизации вынесены в отдельный файл
-![default]([https://raw.githubusercontent.com/German-D/new_cypress/main/static/user_data.png](https://raw.githubusercontent.com/P-Sergei-qa/cypress_autotests/refs/heads/main/cypress/videos/default.png))
+![default](https://raw.githubusercontent.com/P-Sergei-qa/cypress_autotests/refs/heads/main/cypress/videos/default.png)
 
 4. Каждая страница описана в формате объекта с локаторами
 ![main_page](https://raw.githubusercontent.com/P-Sergei-qa/cypress_autotests/refs/heads/main/cypress/videos/main_page.png)
